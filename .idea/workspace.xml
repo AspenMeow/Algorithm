@@ -43,56 +43,52 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.Permutation">
+  <component name="RunManager" selected="Application.FastCollinearPoints">
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+    </configuration>
+    <configuration name="BruteCollinearPoints" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BruteCollinearPoints" />
+      <module name="Algorithm" />
+      <option name="PROGRAM_PARAMETERS" value="input8.txt" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2" />
     </configuration>
     <configuration name="Deque" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Deque" />
       <module name="Algorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <method v="2" />
     </configuration>
-    <configuration name="LinkedQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="edu.princeton.cs.algs4.LinkedQueue" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="FastCollinearPoints" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="FastCollinearPoints" />
+      <module name="Algorithm" />
+      <option name="PROGRAM_PARAMETERS" value="input8.txt" />
+      <method v="2" />
     </configuration>
-    <configuration name="Percolation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Percolation" />
+    <configuration name="LineSegment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LineSegment" />
       <module name="Algorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <method v="2" />
     </configuration>
     <configuration name="Permutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Permutation" />
       <module name="Algorithm" />
       <option name="PROGRAM_PARAMETERS" value="3" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <method v="2" />
     </configuration>
-    <configuration name="RandomizedQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RandomizedQueue" />
+    <configuration name="Point" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Point" />
       <module name="Algorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <method v="2" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <method v="2" />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
@@ -103,11 +99,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Permutation" />
-        <item itemvalue="Application.RandomizedQueue" />
+        <item itemvalue="Application.BruteCollinearPoints" />
+        <item itemvalue="Application.Point" />
+        <item itemvalue="Application.LineSegment" />
         <item itemvalue="Application.Deque" />
-        <item itemvalue="Application.LinkedQueue" />
-        <item itemvalue="Application.Percolation" />
+        <item itemvalue="Application.Permutation" />
       </list>
     </recent_temporary>
   </component>
@@ -116,42 +112,74 @@
       <screen x="1080" y="719" width="1920" height="1080" />
     </state>
     <state x="1704" y="901" key="#LinkedQueue/1080.719.1920.1080/0.0.1080.1920@1080.719.1920.1080" timestamp="1621740080487" />
-    <state x="1853" y="969" key="#com.intellij.ide.util.MemberChooser" timestamp="1621741920164">
+    <state x="1853" y="969" key="#com.intellij.ide.util.MemberChooser" timestamp="1621793074598">
       <screen x="1080" y="719" width="1920" height="1080" />
     </state>
-    <state x="1853" y="969" key="#com.intellij.ide.util.MemberChooser/1080.719.1920.1080/0.0.1080.1920@1080.719.1920.1080" timestamp="1621741920163" />
-    <state width="1920" height="321" key="GridCell.Tab.0.bottom" timestamp="1621785283342">
+    <state x="1853" y="969" key="#com.intellij.ide.util.MemberChooser/1080.719.1920.1080/0.0.1080.1920@1080.719.1920.1080" timestamp="1621793074597" />
+    <state width="1920" height="321" key="GridCell.Tab.0.bottom" timestamp="1621824548667">
       <screen x="1080" y="719" width="1920" height="1080" />
     </state>
-    <state width="1920" height="321" key="GridCell.Tab.0.bottom/1080.719.1920.1080/0.0.1080.1920@1080.719.1920.1080" timestamp="1621785283342" />
-    <state width="1920" height="321" key="GridCell.Tab.0.center" timestamp="1621785283340">
+    <state width="1920" height="321" key="GridCell.Tab.0.bottom/1080.719.1920.1004/0.25.1080.1895@1080.719.1920.1004" timestamp="1621785742836" />
+    <state width="1920" height="449" key="GridCell.Tab.0.bottom/1080.719.1920.1006/0.25.1080.1895@1080.719.1920.1006" timestamp="1621821940509" />
+    <state width="1920" height="321" key="GridCell.Tab.0.bottom/1080.719.1920.1007/0.25.1080.1895@1080.719.1920.1007" timestamp="1621818128887" />
+    <state width="1920" height="321" key="GridCell.Tab.0.bottom/1080.719.1920.1080/0.0.1080.1920@1080.719.1920.1080" timestamp="1621824548667" />
+    <state width="1920" height="321" key="GridCell.Tab.0.bottom/1080.719.1920.1080/0.25.1080.1847@1080.719.1920.1080" timestamp="1621813703598" />
+    <state width="1920" height="321" key="GridCell.Tab.0.bottom/1080.719.1920.1080/0.25.1080.1848@1080.719.1920.1080" timestamp="1621822705465" />
+    <state width="1920" height="321" key="GridCell.Tab.0.bottom/1080.719.1920.1080/0.25.1080.1895@1080.719.1920.1080" timestamp="1621818045017" />
+    <state width="1920" height="321" key="GridCell.Tab.0.center" timestamp="1621824548666">
       <screen x="1080" y="719" width="1920" height="1080" />
     </state>
-    <state width="1920" height="321" key="GridCell.Tab.0.center/1080.719.1920.1080/0.0.1080.1920@1080.719.1920.1080" timestamp="1621785283340" />
-    <state width="1920" height="321" key="GridCell.Tab.0.left" timestamp="1621785283338">
+    <state width="1920" height="321" key="GridCell.Tab.0.center/1080.719.1920.1004/0.25.1080.1895@1080.719.1920.1004" timestamp="1621785742830" />
+    <state width="1920" height="449" key="GridCell.Tab.0.center/1080.719.1920.1006/0.25.1080.1895@1080.719.1920.1006" timestamp="1621821940502" />
+    <state width="1920" height="321" key="GridCell.Tab.0.center/1080.719.1920.1007/0.25.1080.1895@1080.719.1920.1007" timestamp="1621818128886" />
+    <state width="1920" height="321" key="GridCell.Tab.0.center/1080.719.1920.1080/0.0.1080.1920@1080.719.1920.1080" timestamp="1621824548666" />
+    <state width="1920" height="321" key="GridCell.Tab.0.center/1080.719.1920.1080/0.25.1080.1847@1080.719.1920.1080" timestamp="1621813703594" />
+    <state width="1920" height="321" key="GridCell.Tab.0.center/1080.719.1920.1080/0.25.1080.1848@1080.719.1920.1080" timestamp="1621822705460" />
+    <state width="1920" height="321" key="GridCell.Tab.0.center/1080.719.1920.1080/0.25.1080.1895@1080.719.1920.1080" timestamp="1621818045014" />
+    <state width="1920" height="321" key="GridCell.Tab.0.left" timestamp="1621824548665">
       <screen x="1080" y="719" width="1920" height="1080" />
     </state>
-    <state width="1920" height="321" key="GridCell.Tab.0.left/1080.719.1920.1080/0.0.1080.1920@1080.719.1920.1080" timestamp="1621785283338" />
-    <state width="1920" height="321" key="GridCell.Tab.0.right" timestamp="1621785283341">
+    <state width="1920" height="321" key="GridCell.Tab.0.left/1080.719.1920.1004/0.25.1080.1895@1080.719.1920.1004" timestamp="1621785742820" />
+    <state width="1920" height="449" key="GridCell.Tab.0.left/1080.719.1920.1006/0.25.1080.1895@1080.719.1920.1006" timestamp="1621821940495" />
+    <state width="1920" height="321" key="GridCell.Tab.0.left/1080.719.1920.1007/0.25.1080.1895@1080.719.1920.1007" timestamp="1621818128885" />
+    <state width="1920" height="321" key="GridCell.Tab.0.left/1080.719.1920.1080/0.0.1080.1920@1080.719.1920.1080" timestamp="1621824548665" />
+    <state width="1920" height="321" key="GridCell.Tab.0.left/1080.719.1920.1080/0.25.1080.1847@1080.719.1920.1080" timestamp="1621813703593" />
+    <state width="1920" height="321" key="GridCell.Tab.0.left/1080.719.1920.1080/0.25.1080.1848@1080.719.1920.1080" timestamp="1621822705459" />
+    <state width="1920" height="321" key="GridCell.Tab.0.left/1080.719.1920.1080/0.25.1080.1895@1080.719.1920.1080" timestamp="1621818045013" />
+    <state width="1920" height="321" key="GridCell.Tab.0.right" timestamp="1621824548666">
       <screen x="1080" y="719" width="1920" height="1080" />
     </state>
-    <state width="1920" height="321" key="GridCell.Tab.0.right/1080.719.1920.1080/0.0.1080.1920@1080.719.1920.1080" timestamp="1621785283341" />
-    <state width="1920" height="395" key="GridCell.Tab.1.bottom" timestamp="1621784509222">
+    <state width="1920" height="321" key="GridCell.Tab.0.right/1080.719.1920.1004/0.25.1080.1895@1080.719.1920.1004" timestamp="1621785742832" />
+    <state width="1920" height="449" key="GridCell.Tab.0.right/1080.719.1920.1006/0.25.1080.1895@1080.719.1920.1006" timestamp="1621821940508" />
+    <state width="1920" height="321" key="GridCell.Tab.0.right/1080.719.1920.1007/0.25.1080.1895@1080.719.1920.1007" timestamp="1621818128886" />
+    <state width="1920" height="321" key="GridCell.Tab.0.right/1080.719.1920.1080/0.0.1080.1920@1080.719.1920.1080" timestamp="1621824548666" />
+    <state width="1920" height="321" key="GridCell.Tab.0.right/1080.719.1920.1080/0.25.1080.1847@1080.719.1920.1080" timestamp="1621813703595" />
+    <state width="1920" height="321" key="GridCell.Tab.0.right/1080.719.1920.1080/0.25.1080.1848@1080.719.1920.1080" timestamp="1621822705465" />
+    <state width="1920" height="321" key="GridCell.Tab.0.right/1080.719.1920.1080/0.25.1080.1895@1080.719.1920.1080" timestamp="1621818045014" />
+    <state width="1920" height="449" key="GridCell.Tab.1.bottom" timestamp="1621822525933">
       <screen x="1080" y="719" width="1920" height="1080" />
     </state>
-    <state width="1920" height="395" key="GridCell.Tab.1.bottom/1080.719.1920.1080/0.0.1080.1920@1080.719.1920.1080" timestamp="1621784509222" />
-    <state width="1920" height="395" key="GridCell.Tab.1.center" timestamp="1621784509220">
+    <state width="1920" height="449" key="GridCell.Tab.1.bottom/1080.719.1920.1006/0.25.1080.1895@1080.719.1920.1006" timestamp="1621821940512" />
+    <state width="1920" height="449" key="GridCell.Tab.1.bottom/1080.719.1920.1080/0.0.1080.1920@1080.719.1920.1080" timestamp="1621822069707" />
+    <state width="1920" height="449" key="GridCell.Tab.1.bottom/1080.719.1920.1080/0.25.1080.1848@1080.719.1920.1080" timestamp="1621822525933" />
+    <state width="1920" height="449" key="GridCell.Tab.1.center" timestamp="1621822525932">
       <screen x="1080" y="719" width="1920" height="1080" />
     </state>
-    <state width="1920" height="395" key="GridCell.Tab.1.center/1080.719.1920.1080/0.0.1080.1920@1080.719.1920.1080" timestamp="1621784509220" />
-    <state width="1920" height="395" key="GridCell.Tab.1.left" timestamp="1621784509219">
+    <state width="1920" height="449" key="GridCell.Tab.1.center/1080.719.1920.1006/0.25.1080.1895@1080.719.1920.1006" timestamp="1621821940511" />
+    <state width="1920" height="449" key="GridCell.Tab.1.center/1080.719.1920.1080/0.0.1080.1920@1080.719.1920.1080" timestamp="1621822069705" />
+    <state width="1920" height="449" key="GridCell.Tab.1.center/1080.719.1920.1080/0.25.1080.1848@1080.719.1920.1080" timestamp="1621822525932" />
+    <state width="1920" height="449" key="GridCell.Tab.1.left" timestamp="1621822525932">
       <screen x="1080" y="719" width="1920" height="1080" />
     </state>
-    <state width="1920" height="395" key="GridCell.Tab.1.left/1080.719.1920.1080/0.0.1080.1920@1080.719.1920.1080" timestamp="1621784509219" />
-    <state width="1920" height="395" key="GridCell.Tab.1.right" timestamp="1621784509221">
+    <state width="1920" height="449" key="GridCell.Tab.1.left/1080.719.1920.1006/0.25.1080.1895@1080.719.1920.1006" timestamp="1621821940510" />
+    <state width="1920" height="449" key="GridCell.Tab.1.left/1080.719.1920.1080/0.0.1080.1920@1080.719.1920.1080" timestamp="1621822069704" />
+    <state width="1920" height="449" key="GridCell.Tab.1.left/1080.719.1920.1080/0.25.1080.1848@1080.719.1920.1080" timestamp="1621822525932" />
+    <state width="1920" height="449" key="GridCell.Tab.1.right" timestamp="1621822525933">
       <screen x="1080" y="719" width="1920" height="1080" />
     </state>
-    <state width="1920" height="395" key="GridCell.Tab.1.right/1080.719.1920.1080/0.0.1080.1920@1080.719.1920.1080" timestamp="1621784509221" />
+    <state width="1920" height="449" key="GridCell.Tab.1.right/1080.719.1920.1006/0.25.1080.1895@1080.719.1920.1006" timestamp="1621821940511" />
+    <state width="1920" height="449" key="GridCell.Tab.1.right/1080.719.1920.1080/0.0.1080.1920@1080.719.1920.1080" timestamp="1621822069706" />
+    <state width="1920" height="449" key="GridCell.Tab.1.right/1080.719.1920.1080/0.25.1080.1848@1080.719.1920.1080" timestamp="1621822525933" />
     <state x="1168" y="954" key="SettingsEditor" timestamp="1621737055822">
       <screen x="1080" y="719" width="1920" height="1080" />
     </state>
@@ -164,6 +192,11 @@
           <url>file://$PROJECT_DIR$/RandomizedQueue.java</url>
           <line>113</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/FastCollinearPoints.java</url>
+          <line>100</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -43,32 +43,51 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.Deque">
+  <component name="RunManager" selected="Application.LineSegment">
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+    </configuration>
+    <configuration name="BruteCollinearPoints" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BruteCollinearPoints" />
+      <module name="Algorithm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2" />
     </configuration>
     <configuration name="Deque" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Deque" />
       <module name="Algorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <method v="2" />
     </configuration>
-    <configuration name="Percolation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Percolation" />
+    <configuration name="FastCollinearPoints" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="FastCollinearPoints" />
+      <module name="Algorithm" />
+      <option name="PROGRAM_PARAMETERS" value="input6.txt" />
+      <method v="2" />
+    </configuration>
+    <configuration name="LineSegment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LineSegment" />
       <module name="Algorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <method v="2" />
+    </configuration>
+    <configuration name="Permutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Permutation" />
+      <module name="Algorithm" />
+      <option name="PROGRAM_PARAMETERS" value="3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Point" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Point" />
+      <module name="Algorithm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <method v="2" />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
@@ -79,19 +98,81 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LineSegment" />
+        <item itemvalue="Application.BruteCollinearPoints" />
+        <item itemvalue="Application.Point" />
         <item itemvalue="Application.Deque" />
-        <item itemvalue="Application.Percolation" />
+        <item itemvalue="Application.Permutation" />
       </list>
     </recent_temporary>
   </component>
   <component name="WindowStateProjectService">
-    <state x="1853" y="969" key="#com.intellij.ide.util.MemberChooser" timestamp="1621739460862">
+    <state x="1704" y="901" key="#LinkedQueue" timestamp="1621740080488">
       <screen x="1080" y="719" width="1920" height="1080" />
     </state>
-    <state x="1853" y="969" key="#com.intellij.ide.util.MemberChooser/1080.719.1920.1080/0.0.1080.1920@1080.719.1920.1080" timestamp="1621739460862" />
+    <state x="1704" y="901" key="#LinkedQueue/1080.719.1920.1080/0.0.1080.1920@1080.719.1920.1080" timestamp="1621740080487" />
+    <state x="1853" y="969" key="#com.intellij.ide.util.MemberChooser" timestamp="1621793074598">
+      <screen x="1080" y="719" width="1920" height="1080" />
+    </state>
+    <state x="1853" y="969" key="#com.intellij.ide.util.MemberChooser/1080.719.1920.1080/0.0.1080.1920@1080.719.1920.1080" timestamp="1621793074597" />
+    <state width="1920" height="395" key="GridCell.Tab.0.bottom" timestamp="1621812285798">
+      <screen x="1080" y="719" width="1920" height="1006" />
+    </state>
+    <state width="1920" height="321" key="GridCell.Tab.0.bottom/1080.719.1920.1004/0.25.1080.1895@1080.719.1920.1004" timestamp="1621785742836" />
+    <state width="1920" height="395" key="GridCell.Tab.0.bottom/1080.719.1920.1006/0.25.1080.1895@1080.719.1920.1006" timestamp="1621812285798" />
+    <state width="1920" height="321" key="GridCell.Tab.0.bottom/1080.719.1920.1080/0.0.1080.1920@1080.719.1920.1080" timestamp="1621794441262" />
+    <state width="1920" height="395" key="GridCell.Tab.0.center" timestamp="1621812285797">
+      <screen x="1080" y="719" width="1920" height="1006" />
+    </state>
+    <state width="1920" height="321" key="GridCell.Tab.0.center/1080.719.1920.1004/0.25.1080.1895@1080.719.1920.1004" timestamp="1621785742830" />
+    <state width="1920" height="395" key="GridCell.Tab.0.center/1080.719.1920.1006/0.25.1080.1895@1080.719.1920.1006" timestamp="1621812285797" />
+    <state width="1920" height="321" key="GridCell.Tab.0.center/1080.719.1920.1080/0.0.1080.1920@1080.719.1920.1080" timestamp="1621794441260" />
+    <state width="1920" height="395" key="GridCell.Tab.0.left" timestamp="1621812285794">
+      <screen x="1080" y="719" width="1920" height="1006" />
+    </state>
+    <state width="1920" height="321" key="GridCell.Tab.0.left/1080.719.1920.1004/0.25.1080.1895@1080.719.1920.1004" timestamp="1621785742820" />
+    <state width="1920" height="395" key="GridCell.Tab.0.left/1080.719.1920.1006/0.25.1080.1895@1080.719.1920.1006" timestamp="1621812285794" />
+    <state width="1920" height="321" key="GridCell.Tab.0.left/1080.719.1920.1080/0.0.1080.1920@1080.719.1920.1080" timestamp="1621794441257" />
+    <state width="1920" height="395" key="GridCell.Tab.0.right" timestamp="1621812285798">
+      <screen x="1080" y="719" width="1920" height="1006" />
+    </state>
+    <state width="1920" height="321" key="GridCell.Tab.0.right/1080.719.1920.1004/0.25.1080.1895@1080.719.1920.1004" timestamp="1621785742832" />
+    <state width="1920" height="395" key="GridCell.Tab.0.right/1080.719.1920.1006/0.25.1080.1895@1080.719.1920.1006" timestamp="1621812285798" />
+    <state width="1920" height="321" key="GridCell.Tab.0.right/1080.719.1920.1080/0.0.1080.1920@1080.719.1920.1080" timestamp="1621794441261" />
+    <state width="1920" height="395" key="GridCell.Tab.1.bottom" timestamp="1621812285800">
+      <screen x="1080" y="719" width="1920" height="1006" />
+    </state>
+    <state width="1920" height="395" key="GridCell.Tab.1.bottom/1080.719.1920.1006/0.25.1080.1895@1080.719.1920.1006" timestamp="1621812285800" />
+    <state width="1920" height="395" key="GridCell.Tab.1.bottom/1080.719.1920.1080/0.0.1080.1920@1080.719.1920.1080" timestamp="1621784509222" />
+    <state width="1920" height="395" key="GridCell.Tab.1.center" timestamp="1621812285799">
+      <screen x="1080" y="719" width="1920" height="1006" />
+    </state>
+    <state width="1920" height="395" key="GridCell.Tab.1.center/1080.719.1920.1006/0.25.1080.1895@1080.719.1920.1006" timestamp="1621812285799" />
+    <state width="1920" height="395" key="GridCell.Tab.1.center/1080.719.1920.1080/0.0.1080.1920@1080.719.1920.1080" timestamp="1621784509220" />
+    <state width="1920" height="395" key="GridCell.Tab.1.left" timestamp="1621812285799">
+      <screen x="1080" y="719" width="1920" height="1006" />
+    </state>
+    <state width="1920" height="395" key="GridCell.Tab.1.left/1080.719.1920.1006/0.25.1080.1895@1080.719.1920.1006" timestamp="1621812285799" />
+    <state width="1920" height="395" key="GridCell.Tab.1.left/1080.719.1920.1080/0.0.1080.1920@1080.719.1920.1080" timestamp="1621784509219" />
+    <state width="1920" height="395" key="GridCell.Tab.1.right" timestamp="1621812285800">
+      <screen x="1080" y="719" width="1920" height="1006" />
+    </state>
+    <state width="1920" height="395" key="GridCell.Tab.1.right/1080.719.1920.1006/0.25.1080.1895@1080.719.1920.1006" timestamp="1621812285800" />
+    <state width="1920" height="395" key="GridCell.Tab.1.right/1080.719.1920.1080/0.0.1080.1920@1080.719.1920.1080" timestamp="1621784509221" />
     <state x="1168" y="954" key="SettingsEditor" timestamp="1621737055822">
       <screen x="1080" y="719" width="1920" height="1080" />
     </state>
     <state x="1168" y="954" key="SettingsEditor/1080.719.1920.1080/0.0.1080.1920@1080.719.1920.1080" timestamp="1621737055821" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/RandomizedQueue.java</url>
+          <line>113</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
