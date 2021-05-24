@@ -10,6 +10,7 @@ public class BruteCollinearPoints {
     private LineSegment[] lsarry;
 
     public BruteCollinearPoints(Point[] points) {
+        if (points == null) throw new IllegalArgumentException("");
         i = 0;
         int len = points.length;
         lsarry = new LineSegment[len];
